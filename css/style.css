@@ -1,0 +1,76 @@
+/*font-weight seems to come with only three options*/
+/*500, 200 and default*/
+
+html, body {
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #3D3D4B;
+}
+h2 {
+  font-size: 30px;
+  padding: 0px 0px 15px 0px;
+}
+#headertext {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+.imgme {
+  border: 2px solid black;
+  box-shadow: #AAA 0px 0px 10px 0px; 
+  height: 250px;
+  width: 230px;
+}
+#htname {
+  font-size: 40px;
+}
+#htem {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.pubwrap {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #DDD;
+}
+.pubt {
+  font-size: 20px;
+}
+.puba {
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .pubt {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .pubd {
+    text-align: justify;
+  }
+}
+.pubd {  
+  font-size: 15px;
+  font-weight: 200;
+}
+.pubimg {
+  text-align: center;
+}
+.pubimg img {
+  max-width: 100%;
+}
+.pubv {
+  color: #FF717E;
+  font-size: 16px;
+}
+.publ {
+  padding-top: 10px;
+}
+.publ li {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 2px;
+  display: inline-block;
+}
